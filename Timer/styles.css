@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(19, 17, 17);
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(248, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  gap: 24px;
+  border-radius: 4px;
+  margin-top: 48px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 14px 24px;
+  background-color: rgb(91, 89, 104);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(105, 105, 110);
+}
+
+.pausado {
+  color: red;
+}
